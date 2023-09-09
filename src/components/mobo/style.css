@@ -288,13 +288,9 @@ p.para2{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-}
-.member:first-child img{
     border-top:  2px solid var(--google-blue);
     border-left:  2px solid var(--google-red);
     border-bottom:  2px solid var(--google-green);
     border-right: 2px solid var(--google-yellow);
 }
-.member:first-child {
-    padding-bottom: 5px;
-}
+

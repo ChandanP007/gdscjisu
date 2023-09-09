@@ -34,7 +34,7 @@
 .lead-quote{
     background-color: whitesmoke;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ p.para2{
 .section1{
     padding: 15px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .section1 h2{
     color: grey;
@@ -214,4 +214,48 @@ p.para2{
     font-size: 9px;
     margin-top: 20px;
     
+}
+
+
+/* Team Component  */
+.team-container{
+    padding: 15px;
+}
+.section-title{
+    text-align: left; padding: 7px; color: black;
+    margin-bottom: 10px;
+}
+.team-container h4{
+    margin: 5px; 
+    padding: 7px;
+    font-weight: 700;
+    text-align: center; 
+    background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.team-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.team-members h2{
+    font-size: 9px;
+   
+}
+.member img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-top:  3px solid var(--google-blue);
+    border-left:  3px solid var(--google-red);
+    border-bottom:  3px solid var(--google-green);
+    border-right: 3px solid var(--google-yellow);
 }

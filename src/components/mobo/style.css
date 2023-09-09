@@ -235,11 +235,12 @@ p.para2{
     margin: 5px; 
     padding: 7px;
     font-weight: 700;
-    text-align: center; 
-    background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
+    text-align: right; 
+    color: grey;
+    /* background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: transparent; */
 
 }
 .team-members{
@@ -260,8 +261,10 @@ p.para2{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border-top:  3px solid var(--google-blue);
-    border-left:  3px solid var(--google-red);
-    border-bottom:  3px solid var(--google-green);
-    border-right: 3px solid var(--google-yellow);
+}
+.member:first-child img{
+    border-top:  2px solid var(--google-blue);
+    border-left:  2px solid var(--google-red);
+    border-bottom:  2px solid var(--google-green);
+    border-right: 2px solid var(--google-yellow);
 }

@@ -1,5 +1,7 @@
 import Nav from "./nav";
 import Hero from "./hero";
+import About from "./about";
+import Footer from "./footer";
 
 
 function Mapp(){
@@ -7,6 +9,8 @@ function Mapp(){
         <>
             <Nav/>
             <Hero/>
+            <About/>
+            <Footer/>
         </>
     )
 }

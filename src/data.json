@@ -2,6 +2,34 @@
     "lead":{
         "name" : "Chandan Pandey",
         "designation" : "GDSC Lead",
-        "dp" : "https://media.licdn.com/dms/image/D4D03AQGomyyhCjoZPg/profile-displayphoto-shrink_800_800/0/1690870421576?e=1699488000&v=beta&t=P2Fjs1LCP3gsj_5WVawhJ5MwgNhh9D9kuu_qEKHJmfw"
+        "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/366991827_303068002226636_7839473570317303198_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=hpOzPc4RmEIAX9HLc_b&_nc_oc=AQnhSsXiqok1ZtqmxdX6bjT7aTCyhM_ifVPgVWr7NAgJAhWBqo2IyKfRpydzzYv99Nw&_nc_ht=scontent.fccu14-1.fna&oh=00_AfAKfuwSwyaDEBcjVvSR9rWPZNPy0UwPwLhN4FrpYsb_OA&oe=65013311"
+    },
+    "heads":{
+        "mentor-team":{
+            "1":{
+                "name" : "Abhishek Kushwaha",
+                "designation" : "Team Lead",
+                "domain" : "DevOps",
+                "dp" : ""
+            },
+            "2":{
+                "name" : "Abhishek Kushwaha",
+                "designation" : "Team Lead",
+                "domain" : "DevOps",
+                "dp" : ""
+            },
+            "3":{
+                "name" : "Abhishek Kushwaha",
+                "designation" : "Team Lead",
+                "domain" : "DevOps",
+                "dp" : ""
+            },
+            "4":{
+                "name" : "Abhishek Kushwaha",
+                "designation" : "Team Lead",
+                "domain" : "DevOps",
+                "dp" : ""
+            }
+        }
     }
-}
+} 

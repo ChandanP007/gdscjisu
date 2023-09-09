@@ -32,6 +32,8 @@
 
 /* Hero Component  */
 .lead-quote{
+    background-color: whitesmoke;
+    padding: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -43,7 +45,7 @@
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     border-top: 5px solid var(--google-blue);
     border-left: 5px solid var(--google-green);
     border-right: 5px solid var(--google-yellow);
@@ -85,17 +87,18 @@ p.para2{
     font-size: 12px;
 }
 .hero-content button{
-    background: whitesmoke;
+    background: white;
     outline: none;
     padding: 7px;
     font-family: 'Open Sans', sans-serif;
     border-radius: 30px;
     width: 95px;
     margin-top: 40px;
-    border-top:  2.2px solid var(--google-blue);
-    border-left:  2.2px solid var(--google-red);
-    border-bottom:  2.2px solid var(--google-green);
-    border-right: 2.2px solid var(--google-yellow);
+    font-weight: 700;
+    border-top:  2.5px solid var(--google-blue);
+    border-left:  2.5px solid var(--google-red);
+    border-bottom:  2.5px solid var(--google-green);
+    border-right: 2.5px solid var(--google-yellow);
 }
 .hero-thumb{
     /* height: px; */
@@ -111,4 +114,104 @@ p.para2{
 }
 .branding img{
     height: 50px; width: 50px;
+}
+
+
+/* About Section  */
+.section1{
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.section1 h2{
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.section1 h1{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+}
+.section1 h3{
+    font-size: 2.25em;
+    background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.eventPicturesSlider img{
+    width: 100%;
+    margin-top: 20px;
+    
+}   
+.section1 button{
+    border: none;
+    background: white;
+    height: 40px;
+    font-weight: 700;
+    outline: none;
+    border-radius: 32px;
+    width: 150px;
+    color: #242424;
+    font-size: 14px;
+    border-top:  2.5px solid var(--google-blue);
+    border-left:  2.5px solid var(--google-red);
+    border-bottom:  2.5px solid var(--google-green);
+    border-right: 2.5px solid var(--google-yellow);
+}
+.pastevents{
+    margin-top: 7px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.pastevents img{
+    height: 40px;
+}
+.mission{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mission h3{
+    font-size: 16px;
+}
+.mission p{
+    font-size: 15px;
+}
+.footer-container{
+    background-color: #242424;
+    color: white;
+    padding: 20px;
+}
+.footer-container .branding{
+    font-weight: 100;
+    font-size: 12px;
+
+}
+.socials{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    align-items: center;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials img{
+    filter: invert();
+    height: 15px;
+    width: 15px;
+}
+.copyright{
+    font-size: 9px;
+    margin-top: 20px;
+    
 }

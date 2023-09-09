@@ -17,7 +17,7 @@ function Hero() {
         </div>
 
           <p className="para2">
-            Our Mission is to empower
+            <b>O</b>ur Mission is to empower
             students with the latest tech skills,create a collaborative
             environment for learning, and build amazing projects together.
           </p>

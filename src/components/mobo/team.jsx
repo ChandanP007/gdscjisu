@@ -8,6 +8,7 @@ function Team(){
         <div className="team-container">
             <h1 className='section-title'>Meet The Team </h1>
             <h4>The Facilitators</h4>
+
             <div className="team-members">  
                 {data.coreteam.mentors.map(((item) => (
                     <div className="member">
@@ -34,6 +35,8 @@ function Team(){
                     </div>
                 )))}
             </div>
+            
+            
             
         </div>
         </>

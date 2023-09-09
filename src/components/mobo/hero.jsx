@@ -1,14 +1,14 @@
 import dsclogo from "../../assets/dsclogo.png";
+import university from "../../assets/university.jpg"
 import data from '../../data.json';
 import "./style.css";
 
 function Hero() {
-  const heroimg =
-    "https://www.dsctcet.tech/static/media/gdsc-landing1.f8c33f4b4af4dd7625ad.png";
+  
   return (
     <>
       <div className="hero-container">
-        {/* <img className='hero-thumb' src={heroimg} alt="" /> */}
+        <img className='hero-thumb' src={university} alt="" />
         <div className="hero-content">
         <div className="branding">
           <img src={dsclogo} alt="" />

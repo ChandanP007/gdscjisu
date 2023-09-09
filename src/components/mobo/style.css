@@ -66,7 +66,11 @@
     align-items: center;
     flex-direction: column;
 }
-
+img.hero-thumb{
+    height: 250px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
 .hero-content{
     display: flex;
     flex-direction: column;
@@ -110,7 +114,7 @@ p.para2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4em;
+    padding: 3em;
 }
 .branding img{
     height: 50px; width: 50px;
@@ -224,7 +228,7 @@ p.para2{
     background-color: whitesmoke;
 }
 .section-title{
-    text-align: left;  color: black;
+    text-align: left;  color: var(--google-blue);
     margin-bottom: 10px; margin-left: 10px;
     font-weight: 700;
     font-size: 2rem;

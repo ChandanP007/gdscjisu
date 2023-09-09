@@ -6,7 +6,7 @@ function Team(){
     return(
         <>
         <div className="team-container">
-            <h2 className='section-title'>Meet The Team</h2>
+            <h1 className='section-title'>Meet The Team </h1>
             <h4>The Facilitators</h4>
             <div className="team-members">  
                 {data.coreteam.mentors.map(((item) => (

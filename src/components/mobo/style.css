@@ -220,10 +220,16 @@ p.para2{
 /* Team Component  */
 .team-container{
     /* padding: 15px; */
+    padding-top: 10px;
+    background-color: whitesmoke;
 }
 .section-title{
-    text-align: left; padding: 7px; color: black;
-    margin-bottom: 10px;
+    text-align: left;  color: black;
+    margin-bottom: 10px; margin-left: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    padding: 12px;
 }
 .team-container h4{
     margin: 5px; 

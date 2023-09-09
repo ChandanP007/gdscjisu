@@ -268,7 +268,10 @@ p.para2{
 }
 .team-members h2{
     font-size: 9px;
-   
+}
+.team-members h6{
+    font-size: 8px;
+    font-weight: 300;
 }
 .member{
     flex: 0 0 auto;

@@ -14,6 +14,7 @@ function Team(){
                     <div className="member">
                         <img src={item.dp} alt="" />
                         <h2>{item.name}</h2>
+                        <h6>{item.designation}</h6>
                     </div>
                 )))}
             </div>

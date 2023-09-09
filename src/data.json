@@ -8,25 +8,25 @@
         "mentors": [
             {
                 "name" : "Manish Gupta",
-                "designation" : "Team Lead",
+                "designation" : "Web",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/manish_gupta_EbBYkUM.jpg"
             },
             {
                 "name" : "Rahul Kamilya",
-                "designation" : "Team Lead",
+                "designation" : "CyberSecurity",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya.jpg"
             },
             {
                 "name" : "Akash Barman",
-                "designation" : "Team Lead",
+                "designation" : "Cloud",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/akash_barman_PHPZDSc.jpg"
             },
             {
                 "name" : "Abhishek Kushwaha",
-                "designation" : "Team Lead",
+                "designation" : "DevOps",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/abhishek_kushwaha_XYJsWjY.jpg"
             }

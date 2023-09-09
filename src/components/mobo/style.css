@@ -1,0 +1,63 @@
+:root{
+    --google-green : #0F9D58;
+    --google-red : #DB4437;
+    --google-blue : #4285F4;
+    --google-yellow : #F4B400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Navigation  */
+.navigation-container{
+    color: white;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    padding: 10px;
+}
+.navigation-container img{
+    height: 30px; width: 30px;
+}
+.dsc-branding{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    font-size: small;
+}
+.dsc-menu img{
+    filter: invert();
+}
+
+/* Hero Component  */
+.hero-container{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content img{
+    height: 50px; width: 50px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+.hero-content button{
+    background: whitesmoke;
+    outline: none;
+    padding: 7px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    width: 95px;
+    margin-top: 40px;
+    border-top:  2.2px solid var(--google-blue);
+    border-left:  2.2px solid var(--google-red);
+    border-bottom:  2.2px solid var(--google-green);
+    border-right: 2.2px solid var(--google-yellow);
+}

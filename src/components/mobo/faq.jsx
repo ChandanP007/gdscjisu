@@ -58,7 +58,7 @@ function Faq() {
   return (
     <>
       <div className="faq-container">
-        <h2 className="container-title">Frequently asked questions ❔</h2>
+        <h2 className="container-title">Frequently asked questions ?</h2>
         <div className="questions">
           <div className="question">
             {faqData.map((faq, index) => (

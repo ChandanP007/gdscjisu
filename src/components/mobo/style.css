@@ -58,7 +58,6 @@
     padding: 1px;
 }
 
-
 .hero-container{
     /* padding: 4rem; */
     display: flex;
@@ -71,6 +70,7 @@ img.hero-thumb{
     object-fit: cover;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     /* border-bottom: 5px solid red; */
+
 }
 
 .hero-content{
@@ -93,7 +93,7 @@ p.para2{
     font-size: 12px;
 }
 .hero-content button{
-    background: white;
+    background: whitesmoke;
     outline: none;
     padding: 7px;
     font-family: 'Open Sans', sans-serif;
@@ -263,6 +263,11 @@ p.para2{
     max-width: 370px;
     padding-left: 20px;
 }
+.team-members:nth-child(1){
+    /* border: 1px solid black; */
+    margin-bottom: -5px;
+}
+
 .team{
     display: flex;
     justify-content: center;
@@ -303,4 +308,15 @@ p.para2{
     border-bottom:  2px solid var(--google-green);
     border-right: 2px solid var(--google-yellow);
 }
-
+.slidemsg{
+    text-align: right;
+    padding-right: 5px;
+}
+.slidemsg img{
+    width: 30px; height: 30px;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}

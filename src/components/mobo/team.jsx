@@ -19,6 +19,7 @@ function Team(){
                 )))}
             </div>
             <h4>Socials & Promo Team</h4>
+            <div className="subcontainer">
             <div className="team-members">  
                 {data.coreteam.pr.map(((item) => (
                     <div className="member">
@@ -27,7 +28,13 @@ function Team(){
                     </div>
                 )))}
             </div>
+            <div className="slidemsg">
+                    <img src="https://media2.giphy.com/media/MZXmFVrbMA1qSDNGOt/giphy.gif" alt="" />
+            </div>
+            </div>
+
             <h4>The Design Team</h4>
+            <div className="subcontainer">
             <div className="team-members">  
                 {data.coreteam.designteam.map(((item) => (
                     <div className="member">
@@ -35,6 +42,10 @@ function Team(){
                         <h2>{item.name}</h2>
                     </div>
                 )))}
+            </div>
+            <div className="slidemsg">
+                    <img src="https://media2.giphy.com/media/MZXmFVrbMA1qSDNGOt/giphy.gif" alt="" />
+            </div>
             </div>
             
             

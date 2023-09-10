@@ -7,24 +7,28 @@
     "coreteam":{
         "mentors": [
             {
+                "id": "01",
                 "name" : "Manish Gupta",
                 "designation" : "Web",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/manish_gupta_EbBYkUM.jpg"
             },
             {
+                "id": "02",
                 "name" : "Rahul Kamilya",
                 "designation" : "CyberSecurity",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya.jpg"
             },
             {
+                "id": "03",
                 "name" : "Akash Barman",
                 "designation" : "Cloud",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/akash_barman_PHPZDSc.jpg"
             },
             {
+                "id": "04",
                 "name" : "Abhishek Kushwaha",
                 "designation" : "DevOps",
                 "domain" : "DevOps",
@@ -33,30 +37,35 @@
         ],
         "pr":[
             {
+                "id": "05",
                 "name" : "Protyusha Chaterjee",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/protyusha_chatterjee_et4AXLQ.jpg"
             },
             {
+                "id": "06",
                 "name" : "Abhinanda Guha",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya.jpg"
             },
             {
+                "id": "07",
                 "name" : "Rakesh Kumar",
                 "designation" : "Social Team",
                 "domain" : "Socials & PR Team",
                 "dp" : "https://media.licdn.com/dms/image/D5603AQF1RljM-pQWrA/profile-displayphoto-shrink_200_200/0/1666500006795?e=1700092800&v=beta&t=dEgkeRpYrG9AKAdZpsiS6disyiRz_TyzN7wjMJcJdCc"
             },
             {
+                "id": "08",
                 "name" : "Shaswata Kanjilal",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/366065264_1444428469741600_8056282564272153078_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=EsFC03c7TeIAX_ctThB&_nc_ht=scontent.fccu14-1.fna&oh=00_AfCff4OvwQU0CJZ8D2Zo896VjZitPvb-xX4cXncQsP3Fow&oe=650294DD"
             },
             {
+                "id": "09",
                 "name" : "Ankita Dhar",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
@@ -65,38 +74,38 @@
         ]
         ,
         "designteam":[
-            {
+            {   "id": "10",
                 "name" : "Debojeet Karmakar",
                 "designation" : "Soumya Ganguly",
                 "domain" : "DevOps",
                 "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/debojeet_karmakar.png"
             },
-            {
+            {   "id": "11",
                 "name" : "Shemanti Pal",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://media.licdn.com/dms/image/D4D03AQFBYLLWyUwI1Q/profile-displayphoto-shrink_200_200/0/1690121696831?e=1700092800&v=beta&t=RYMSVZY2rehLxyvJp78j2k4CL_hJC_i-p68fujwZk8Y"
             },
-            {
+            {   "id": "12",
                 "name" : "Sandip Mandal",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/312074032_625334972412629_2852478076934849457_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=w_qf7iGN6AUAX8bkLFl&_nc_ht=scontent.fccu14-1.fna&oh=00_AfCCIv3p4fcfGD9B1MfmWWkJzayyALRLDxHj6W8S0PnH5w&oe=6502AE26"
             },
-            {
+            {   "id": "13",
                 "name" : "Shinjini Nag",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
                 "dp" : "https://media.licdn.com/dms/image/D4D03AQELwowvkk_25A/profile-displayphoto-shrink_200_200/0/1674626072107?e=1700092800&v=beta&t=N0sN05_wxZkuaiPBrWpApf7JVAcm2nRryqKWqoirOvM"
             },
-            {
+            {   "id": "14",
                 "name" : "Soumya Ganguly",
                 "designation" : "Soumya Ganguly",
                 "domain" : "DevOps",
                 "dp" : "https://avatars.githubusercontent.com/u/116705958?v=4"
             }
             ,
-            {
+            {   "id": "15",
                 "name" : "Pratyush Singha",
                 "designation" : "Soumya Ganguly",
                 "domain" : "DevOps",

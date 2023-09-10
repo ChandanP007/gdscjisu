@@ -11,7 +11,7 @@ function Team(){
 
             <div className="team-members">  
                 {data.coreteam.mentors.map(((item) => (
-                    <div className="member">
+                    <div className="member" key={item.id}>
                         <img src={item.dp} alt="" />
                         <h2>{item.name}</h2>
                         <h6>{item.designation}</h6>
@@ -22,7 +22,7 @@ function Team(){
             <div className="subcontainer">
             <div className="team-members">  
                 {data.coreteam.pr.map(((item) => (
-                    <div className="member">
+                    <div className="member" key={item.id}>
                         <img src={item.dp} alt="" />
                         <h2>{item.name}</h2>
                     </div>
@@ -37,7 +37,7 @@ function Team(){
             <div className="subcontainer">
             <div className="team-members">  
                 {data.coreteam.designteam.map(((item) => (
-                    <div className="member">
+                    <div className="member" key={item.id}>
                         <img src={item.dp} alt="" />
                         <h2>{item.name}</h2>
                     </div>

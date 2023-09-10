@@ -325,13 +325,17 @@ p.para2{
 /* FAQ'S  */
 .faq-container{
     padding: 15px;
-    background: var(--google-yellow);
+    background: whitesmoke;
     color: black;
 }
 .container-title{
     font-size: 15px;
     text-align: left;
     text-align: center;
+    background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .questions{
     margin-top: 35px;
@@ -342,31 +346,56 @@ p.para2{
     gap: 20px;
     
 }
-button.question{
+.question button{
     background: none;
+    margin: 5px;
+    padding: 7px;
     border: none;
     text-align: left;
+    color: white;
+    border: 1px solid var(--google-green);
+    border-radius: 5px;
+    background: var(--google-green);
 }
-.questions button{
-    border: 1px solid black;
+.question{
+    display: flex;
+    flex-direction: column;
     border-radius: 4px;
-    padding: 8px;
-    font-weight: 700;
+    text-align: left;
+    background-color: none;
+    gap: 8px;
 }
 .answer{
-    font-size: 14px;
-    text-align: left;
-    padding: 5px;
+    transition: 0.4s ease-in-out;
+    font-size: 12.4px;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: black;
 }
 
-.answer{
-    /* max-height: 0; */
-    display: none;
-    overflow: hidden;
-    padding: 0 10px;
-    transition: max-height 0.3s ease-in-out;
+.ask-container h6{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
 }
-.answer.open {
-    display: block;
-    /* max-height: 10px; */
-  }
+.take-question{
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 4px;
+}
+.ask-box{
+    border: 1px solid var(--google-blue);
+    padding: 2px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    width: 150px;
+}
+.take-question img{
+    background-color: rgb(180, 94, 180);
+    filter: invert();
+    border-radius: 50%;
+}

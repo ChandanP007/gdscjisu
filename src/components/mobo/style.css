@@ -320,3 +320,53 @@ p.para2{
     flex-direction: column;
     margin-bottom: 20px;
 }
+
+
+/* FAQ'S  */
+.faq-container{
+    padding: 15px;
+    background: var(--google-yellow);
+    color: black;
+}
+.container-title{
+    font-size: 15px;
+    text-align: left;
+    text-align: center;
+}
+.questions{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    
+}
+button.question{
+    background: none;
+    border: none;
+    text-align: left;
+}
+.questions button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: 700;
+}
+.answer{
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
+
+.answer{
+    /* max-height: 0; */
+    display: none;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease-in-out;
+}
+.answer.open {
+    display: block;
+    /* max-height: 10px; */
+  }

@@ -30,12 +30,41 @@
     filter: invert();
 }
 
+/* Upcoming Events  */
+.upcoming-events-container{
+    padding: 20px;
+    background-color: var(--google-green);
+    color: white;
+    /* min-height: 150px; */
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 50px; */
+    /* justify-content: center ; */
+    /* align-items: center ; */
+}
+.upcoming-events-container h2{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 8px;
+
+}
+.upcoming-events-container h5{
+    font-weight: 300;
+
+}
+.events-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
 /* Hero Component  */
 .lead-quote{
     background-color: whitesmoke;
     padding: 30px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -325,7 +354,7 @@ p.para2{
 /* FAQ'S  */
 .faq-container{
     padding: 20px;
-    background: white;
+    background: whitesmoke;
     color: black;
 }
 .container-title{
@@ -398,4 +427,75 @@ p.para2{
     background-color: rgb(180, 94, 180);
     filter: invert();
     border-radius: 50%;
+}
+
+
+/* Partners  */
+.partners-container{
+    background: white;
+    padding: 20px;
+    /* border-bottom: 1px solid lightgrey; */
+    border: 1px dotted lightgrey;
+    border-radius: 5px;
+}
+.partners-container h2{
+    font-size: 15px;
+    background: linear-gradient(45deg, var(--google-blue), var(--google-red), var(--google-green),var(--google-yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 20px;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 25px;
+}
+.partner-item img{
+    height: 40px;
+    
+}
+
+
+/* Stats  */
+.stats-container{
+    background: var(--google-blue);
+    color: var(--google-green);
+    padding: 25px;
+}
+
+.stats-box{
+    display: flex;
+    justify-content: space-around;
+
+}
+.stats-item h2{
+    color: white;
+}
+.stats-item h6{
+    color: white;
+    font-weight: 200;
+}
+
+
+.domains-container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: c; */
+    font-size: 10px;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.domain-item h4{
+    font-weight: 100;
+}
+.domain-item img{
+    height: 30px;
+    padding: 5px;
 }

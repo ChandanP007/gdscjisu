@@ -30,7 +30,7 @@ function Hero() {
             "At <b>GDSC JISU</b>, we are a community of passionate students who love
             technology, learning, and innovation."<br/>
           </p>
-          <h6> {data.lead.name} | {data.lead.designation}</h6>
+          <h6> {data.lead.name}  ({data.lead.designation} 23')</h6>
         </div>
           
         </div>

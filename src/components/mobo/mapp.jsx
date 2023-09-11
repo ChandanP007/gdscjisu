@@ -4,6 +4,10 @@ import About from "./about";
 import Footer from "./footer";
 import Team from "./team";
 import Faq from "./faq";
+import Partners from "./partners";
+import Stats from "./dscstats";
+import Upcoming from "./upcoming";
+import Domain from "./domains";
 
 
 function Mapp(){
@@ -11,8 +15,12 @@ function Mapp(){
         <>
             <Nav/>
             <Hero/>
+            <Upcoming />
+            <Domain />
             <About/>
+            <Stats />
             <Team />
+            <Partners/>
             <Faq />
             <Footer/>
         </>

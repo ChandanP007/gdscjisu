@@ -72,7 +72,7 @@ function Faq() {
         </div>
 
               <div className="ask-container">
-              <h6>Not listed here ? Ask to Me </h6>
+              <h6>Not listed here ? Write to us </h6>
               <div className="take-question">
                 <input type="mail" className="ask-box"/>
                 <img src={sendbtn} alt="" />

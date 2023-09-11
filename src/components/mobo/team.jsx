@@ -18,7 +18,7 @@ function Team(){
                     </div>
                 )))}
             </div>
-            <h4>Socials & Promo Team</h4>
+            <h4>The Promo Team</h4>
             <div className="subcontainer">
             <div className="team-members">  
                 {data.coreteam.pr.map(((item) => (

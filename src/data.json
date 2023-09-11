@@ -48,7 +48,7 @@
                 "name" : "Abhinanda Guha",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
-                "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya.jpg"
+                "dp" : "../../assets/abhinanda.jpg"
             },
             {
                 "id": "07",
@@ -69,7 +69,7 @@
                 "name" : "Ankita Dhar",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
-                "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/abhishek_kushwaha_XYJsWjY.jpg"
+                "dp" : "https://scontent.cdninstagram.com/v/t51.2885-15/327345938_705932357688629_7488804148492415992_n.webp?stp=dst-jpg_e35&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=fQmyopyJm8oAX8iXm5V&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzAyNTEzMDc4ODgyMDM5MDI2NQ%3D%3D.2-ccb7-5&oh=00_AfB1Yg33hge4nFWx3y5n-R8mNmzZ7ew-3X37_e4tDg5eLQ&oe=6502DC9E&_nc_sid=10d13b"
             }
         ]
         ,
@@ -111,6 +111,45 @@
                 "domain" : "DevOps",
                 "dp" : "https://avatars.githubusercontent.com/u/111200225?v=4"
             }
+            
+        ]
+        ,"partners":[
+            {   "id": "16",
+                "name" : "Jis University",
+                "imgsrc" : "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/JIS_University.svg/1200px-JIS_University.svg.png"
+            },
+            {   "id": "17",
+                "name" : "Hack2Skill",
+                "imgsrc" : "https://hack2skill.com/brandguidelines/assets/images/H2S_Gradient_Logo.png"
+            },
+            {   "id": "18",
+                "name" : "Postman",
+                "imgsrc" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQHVAKk9F6iM2_JNGAAPV1mSBQB1o525qiDzN7A9SYwA29DVy2WFmWakzvdOMcndalaA&usqp=CAU"
+            },
+            {   "id": "19",
+                "name" : "Keploy",
+                "imgsrc" : "https://fellowship.keploy.io/images/logo.png"
+            }
+            
+            
+        ]
+        ,"statistics":[
+            {   "id": "20",
+                "name" : "Chapter Members",
+                "count" : "421"
+            },
+            {   "id": "21",
+                "name" : "Events",
+                "count" : "35"
+            }
+            ,
+            {   "id": "22",
+                "name" : "Workshops",
+                "count" : "12"
+            }
+            
+        
+            
             
         ]
     }

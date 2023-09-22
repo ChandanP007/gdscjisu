@@ -44,9 +44,10 @@
 }
 .upcoming-events-container h2{
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     padding-top: 8px;
+    padding-bottom: 8px;
 
 }
 .upcoming-events-container h5{
@@ -498,4 +499,44 @@ p.para2{
 .domain-item img{
     height: 30px;
     padding: 5px;
+}
+
+
+
+.upevents-container{
+    /* border: 1px solid white; */
+    display: flex;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 100%;
+    gap: 5px;
+}
+.upevent-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.event{
+    background: whitesmoke;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    color: black;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.event h2{
+    font-weight: 300;
+    font-size: 13px;
+}
+.domains-title{
+    text-align: left;
+    padding: 15px;
+    font-weight: 200;
+}
+.event img{
+    object-fit: contain;
+    height: 25px
 }

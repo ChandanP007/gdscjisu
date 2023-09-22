@@ -24,7 +24,9 @@ function Hero() {
 
           <button>Join Now</button>
 
+        
           <div className="lead-quote">
+            <h6 className="leadquote-title">The Lead</h6>
             <img src={data.lead.dp} alt="" />
           <p className="para1">
             "At <b>GDSC JISU</b>, we are a community of passionate students who love

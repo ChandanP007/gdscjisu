@@ -2,7 +2,8 @@
     "lead":{
         "name" : "Chandan Pandey",
         "designation" : "GDSC Lead",
-        "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/366991827_303068002226636_7839473570317303198_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=hpOzPc4RmEIAX9HLc_b&_nc_oc=AQnhSsXiqok1ZtqmxdX6bjT7aTCyhM_ifVPgVWr7NAgJAhWBqo2IyKfRpydzzYv99Nw&_nc_ht=scontent.fccu14-1.fna&oh=00_AfAKfuwSwyaDEBcjVvSR9rWPZNPy0UwPwLhN4FrpYsb_OA&oe=65013311"
+        "chapter" : "2023",
+        "dp" : "https://pbs.twimg.com/profile_images/1704715368663851008/ZruxAJjh_400x400.jpg"
     },
     "coreteam":{
         "mentors": [
@@ -18,7 +19,7 @@
                 "name" : "Rahul Kamilya",
                 "designation" : "CyberSecurity",
                 "domain" : "DevOps",
-                "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya.jpg"
+                "dp" : "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/rahul_kamilya_wdFo3t8.jpg"
             },
             {
                 "id": "03",
@@ -62,7 +63,7 @@
                 "name" : "Shaswata Kanjilal",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
-                "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/366065264_1444428469741600_8056282564272153078_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=EsFC03c7TeIAX_ctThB&_nc_ht=scontent.fccu14-1.fna&oh=00_AfCff4OvwQU0CJZ8D2Zo896VjZitPvb-xX4cXncQsP3Fow&oe=650294DD"
+                "dp" : "https://media.licdn.com/dms/image/D4E03AQGMBnhNBXsrsg/profile-displayphoto-shrink_800_800/0/1692536825640?e=1700697600&v=beta&t=LinzYT8irsuOIrrDNFpx_088GYw6y_s1yNnMzhc18iA"
             },
             {
                 "id": "09",
@@ -90,7 +91,7 @@
                 "name" : "Sandip Mandal",
                 "designation" : "Team Lead",
                 "domain" : "DevOps",
-                "dp" : "https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/312074032_625334972412629_2852478076934849457_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=w_qf7iGN6AUAX8bkLFl&_nc_ht=scontent.fccu14-1.fna&oh=00_AfCCIv3p4fcfGD9B1MfmWWkJzayyALRLDxHj6W8S0PnH5w&oe=6502AE26"
+                "dp" : "https://media.licdn.com/dms/image/D4D03AQHcXFt20T4AXA/profile-displayphoto-shrink_800_800/0/1687163162110?e=1700697600&v=beta&t=tf1KKlnh46UOSNQn4KhZiUuEA3A9dX0e0ZxMnHRM0Yc"
             },
             {   "id": "13",
                 "name" : "Shinjini Nag",
@@ -136,7 +137,7 @@
         ,"statistics":[
             {   "id": "20",
                 "name" : "Chapter Members",
-                "count" : "421"
+                "count" : "585"
             },
             {   "id": "21",
                 "name" : "Events",
@@ -144,13 +145,25 @@
             }
             ,
             {   "id": "22",
-                "name" : "Workshops",
-                "count" : "12"
-            }
-            
-        
-            
-            
+                "name" : "Campaigns",
+                "count" : "6"
+            }                          
+        ]
+        ,"upcomingEvents":[
+            {   "id": "23",
+                "thumbnail" : "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+                "name" : "Git & GitHub",
+                "timeline" : "September",
+                "description" : "",
+                "eventpage" : ""
+            },                     
+            {   "id": "24",
+                "thumbnail" : "https://static-00.iconduck.com/assets.00/google-cloud-icon-1024x823-wiwlyizc.png",
+                "name" : "Google Cloud Study Jam",
+                "timeline" : "October",
+                "description" : "",
+                "eventpage" : ""
+            }                      
         ]
     }
 } 

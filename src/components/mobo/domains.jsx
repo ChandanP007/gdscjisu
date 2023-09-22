@@ -3,6 +3,7 @@ function Domain()
 {
     return(
         <>
+            <h5 className="domains-title">More on the way..</h5>
             <div className="domains-container">
                 <div className="domain-item">
                     <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-1024x823-wiwlyizc.png" alt="" />
